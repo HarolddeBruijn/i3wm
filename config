@@ -188,7 +188,7 @@ exec --no-startup-id /usr/bin/slack
 
 exec --no-startup-id /usr/bin/quasselclient
 exec --no-startup-id ~/bin/whatpulse 
-exec --no-startup-id /usr/bin/owncloud
+exec --no-startup-id /usr/bin/owncloud --logwindow
 
 exec i3-msg 'workspace 1; exec chromium-browser;'
 
